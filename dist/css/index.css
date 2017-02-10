@@ -1,0 +1,19 @@
+.nav{
+	overflow: hidden;
+	height: 5%;
+	line-height: 50px;
+}
+.nav li{
+	float: left;
+}
+.nav li a{
+	color: #9D9D9D;
+	text-decoration: none;
+}
+.header{
+	padding: 0 5%;
+	background-color: #222
+}
+.nav li+li{
+	margin-left: 3%
+}

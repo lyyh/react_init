@@ -1,5 +1,4 @@
 import React from 'react'
-import App from './App.jsx'
 
 let items = [{
     name:'中文网',

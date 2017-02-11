@@ -12,11 +12,6 @@ import Header from '../components/Header.jsx';
 
 // let nav = <div className="header"></div>; 
 
-const list = {
-    list1:'中文网',
-    list2:'文档',
-    list3:'教程'
-}
 ReactDOM.render(
     // const header = 
     // <Header>
@@ -29,6 +24,12 @@ ReactDOM.render(
     // <span>网站实例</span>
     // <span>前端高薪</span>
     // </Header>,
-    <Header/>,
+    <App name='jack'>
+        <ul>
+            <li>hahaha</li>
+            <li>yayaya</li>
+            <li>hehehe</li>
+        </ul>
+    </App>,
     document.getElementById('container')
 )

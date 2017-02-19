@@ -37,6 +37,16 @@
          }]
      },
 
+     resolve: {
+         extensions: ['', '.js', '.jsx','.less'],
+         //模块别名定义，方便后续直接引用别名，无须多写长长的地址
+         alias: {
+             AppStore: 'js/stores/AppStores.js', //后续直接 require('AppStore') 即可
+             ActionType: 'js/actions/ActionType.js',
+             AppAction: 'js/actions/AppAction.js'
+         }
+     },
+     
      //插件
      plugins: [
          new webpack.optimize.OccurrenceOrderPlugin(),

@@ -34,8 +34,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --hot --inline --config webpack.config.js",
-    "build": "webpack --compress --progress --profile --colors --config webpack.config.js -p"
+    "start": "webpack-dev-server --display-error-details --hot --inline --config webpack.config.js",
+    "build": "webpack --display-error-details --compress --progress --profile --colors --config webpack.config.js -p"
   },
   "repository": {
     "type": "git",
